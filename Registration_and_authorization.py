@@ -3,10 +3,10 @@ password = ["power","speed"]
 
 def LP(L,P):
     LP = input("Login or Registration\n")
-    if LP == "Registration" or LP == "R":
+    if LP == "Registration":
         L, P=registration(login,password)
 
-    elif LP == "login" or LP == "l":
+    elif LP == "login":
         L, P=Login(login,password)
 
     #to see what login and password there is
