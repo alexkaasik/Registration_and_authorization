@@ -61,10 +61,10 @@ def Independent(login,password):
     print("Independent option")
     x = input("make a password 12 charters long\n")
     x2 = list(x)
-    while len(x2) <= 12:
+    while len(x2) <= 11:
         print("bad")
         x2 = input("make a password 12 charters long\n")
-    password.append(x)
+    password.append(x2)
     print("done")
     return login, password
 
